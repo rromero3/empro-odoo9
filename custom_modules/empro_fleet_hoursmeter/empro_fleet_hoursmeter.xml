@@ -86,17 +86,17 @@
         <field name="model">fleet.vehicle</field>
         <field name="inherit_id" ref="fleet.fleet_vehicle_form" />
         <field name="arch" type="xml">
-            <xpath expr="/form[@string='Vehicle']/sheet/div[1]/h2" position="after">
+            <xpath expr="/form[1]/sheet/div[1]/h2" position="after">
                 <label for="vehicle_code" class="oe_edit_only"/>
                             <h2>
                                 <field name="vehicle_code" class="oe_inline"/></h2>
             </xpath>
-            <xpath expr="/form[@string='Vehicle']/sheet/div[2]//button[5]" position="after">
+            <xpath expr="/form[1]/sheet/div[2]//button[5]" position="after">
                 <button name="empro_fleet_hoursmeter.fleet_vehicle_hoursmeter_act" type="action" class="oe_stat_button" icon="fa-tachometer"  >
                     <field name="hoursmeter_count" widget="statinfo" string="Hoursmeter"/>
                 </button>
             </xpath>
-            <xpath expr="/form[@string='Vehicle']/sheet/group[1]/group[2]/div" position="after">
+            <xpath expr="/form[1]/sheet/group[1]/group[2]/div" position="after">
                 <field name="hoursmeter" class="oe_inline"/>
                 <field name="year" class="oe_inline"/>
                 <field name="is_rented" class="oe_inline"/>
