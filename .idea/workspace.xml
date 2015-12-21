@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ef9acdbe-6224-4a5f-a30b-fc27bcbfec3f" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/custom_modules/empro_fleet_hoursmeter/empro_fleet_hoursmeter.xml" afterPath="$PROJECT_DIR$/custom_modules/empro_fleet_hoursmeter/empro_fleet_hoursmeter.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/custom_modules/empro_hr_extra/empro_hr_extra.xml" afterPath="$PROJECT_DIR$/custom_modules/empro_hr_extra/empro_hr_extra.xml" />
     </list>
     <ignored path="empro-odoo9.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -43,21 +43,21 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="empro_fleet_hoursmeter.xml" pinned="false" current-in-tab="true">
+      <file leaf-file-name="empro_fleet_hoursmeter.xml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/custom_modules/empro_fleet_hoursmeter/empro_fleet_hoursmeter.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.59749556">
+            <state vertical-scroll-proportion="-12.37037">
               <caret line="98" column="26" selection-start-line="98" selection-start-column="26" selection-end-line="98" selection-end-column="26" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="empro_hr_extra.xml" pinned="false" current-in-tab="false">
+      <file leaf-file-name="empro_hr_extra.xml" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/custom_modules/empro_hr_extra/empro_hr_extra.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="15" column="32" selection-start-line="15" selection-start-column="32" selection-end-line="15" selection-end-column="32" />
+            <state vertical-scroll-proportion="0.38395905">
+              <caret line="15" column="38" selection-start-line="15" selection-start-column="38" selection-end-line="15" selection-end-column="38" />
               <folding />
             </state>
           </provider>
@@ -112,8 +112,8 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/conf/openerp-server.conf" />
-        <option value="$PROJECT_DIR$/custom_modules/empro_hr_extra/empro_hr_extra.xml" />
         <option value="$PROJECT_DIR$/custom_modules/empro_fleet_hoursmeter/empro_fleet_hoursmeter.xml" />
+        <option value="$PROJECT_DIR$/custom_modules/empro_hr_extra/empro_hr_extra.xml" />
       </list>
     </option>
   </component>
@@ -380,14 +380,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/custom_modules/empro_hr_extra/empro_hr_extra.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="15" column="32" selection-start-line="15" selection-start-column="32" selection-end-line="15" selection-end-column="32" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/lib/odoo-9.0.post20151109-py2.7.egg/openerp/addons/fleet/fleet_view.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-15.222222">
@@ -414,8 +406,16 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/custom_modules/empro_fleet_hoursmeter/empro_fleet_hoursmeter.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.59749556">
+        <state vertical-scroll-proportion="-12.37037">
           <caret line="98" column="26" selection-start-line="98" selection-start-column="26" selection-end-line="98" selection-end-column="26" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/custom_modules/empro_hr_extra/empro_hr_extra.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.38395905">
+          <caret line="15" column="38" selection-start-line="15" selection-start-column="38" selection-end-line="15" selection-end-column="38" />
           <folding />
         </state>
       </provider>

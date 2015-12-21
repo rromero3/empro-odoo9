@@ -7,20 +7,20 @@
         <field name="model">hr.employee</field>
         <field name="inherit_id" ref="hr.view_employee_form" />
         <field name="arch" type="xml">
-            <xpath expr="/form[1]/sheet/div[1]/h1" position="after">
+            <xpath expr="//sheet/div[2]/h1" position="after">
                  <label for="legal_name" class="oe_edit_only"/>
                             <h3>
                                 <field name="legal_name"/>
                             </h3>
             </xpath>
-            <xpath expr="/form[1]/sheet/div[1]/h1" position="after">
+            <xpath expr="//sheet/div[2]/h1" position="after">
                  <label for="employee_code" class="oe_edit_only"/>
                             <h1>
                                 <field name="employee_code"/>
                             </h1>
             </xpath>
 
-            <xpath expr="/form[1]/sheet/notebook/page[3]/group" position="after">
+            <xpath expr="//sheet/notebook/page[3]/group" position="after">
                     <group string="Antiguedad" name="antiguedad_group">
                         <field name="start_date" />
                         <field name="years_hired" class="oe_read_only"/>
